@@ -11636,3 +11636,36 @@ header.masthead .post-heading .meta a {
     font-size: 2.25rem;
   }
 }
+
+.photobanner {
+  height: 233px;
+  width: 3550px;
+  margin-bottom: 80px;
+}
+
+/*keyframe animations*/
+.first {
+  -webkit-animation: bannermove 40s linear infinite;
+  -moz-animation: bannermove 40s linear infinite;
+  -ms-animation: bannermove 40s linear infinite;
+  -o-animation: bannermove 40s linear infinite;
+  animation: bannermove 40s linear infinite;
+}
+
+@keyframes "bannermove" {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: -1250px;
+  }
+}
+
+@-webkit-keyframes "bannermove" {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: -1250px;
+  }
+}
