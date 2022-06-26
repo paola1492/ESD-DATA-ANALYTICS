@@ -11669,3 +11669,7 @@ header.masthead .post-heading .meta a {
     margin-left: -1250px;
   }
 }
+
+#chart {
+  max-width: 750px;
+}
